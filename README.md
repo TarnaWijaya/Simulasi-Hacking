@@ -5,7 +5,9 @@
    
    2.Setelah Terinstal buka termux dan masukan Command ini
    
-     ```pkg install && pkg update && pkg uprade```
+   ```
+cd /sdcard/Download
+```
      
 ## Daftar Name game
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan

@@ -6,13 +6,25 @@
    2.Setelah Terinstal buka termux dan masukan Command ini
    
    ```
-cd /sdcard/Download
+   pkg install && pkg update && pkg uprade
    ```
    
    ```
    pkg install python3 && pkg install python-pip
    ```
    
+   ```
+   git clone https://github.com/TarnaWijaya/Simulasi-Hacking.git
+   ```
+   
+   ```
+   cd ~ | cd Simulasi-Hacking | ls
+   ```
+   
+   Pilih Level Game 
+   ```
+   cd <namefolder>
+   ```
 ## Daftar Name game
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan
 fitur²nya setiap hari jika saya tidak sibuk bekerja

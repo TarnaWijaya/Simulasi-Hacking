@@ -5,7 +5,9 @@
    2.Setelah Terinstal buka termux dan masukan Command ini
    
      ```
+     
      pkg install && pkg update && pkg uprade
+     
      ```
      
 ## Daftar Name game

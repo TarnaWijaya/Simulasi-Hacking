@@ -1,8 +1,8 @@
 # Selamat Datang diSimulasi Hacking
 
 ## Cara install
-   1.Buka Termux anda bisa install termux di[Tombol
-   Link](https://img.shields.io/badge/Visit%20Website-blue)(https://www.example.com)
+   1.Buka Termux anda bisa install termux di[![Tombol
+   Link](https://img.shields.io/badge/Visit%20Website-blue)](https://www.example.com)
    
    
 ## Daftar Name game

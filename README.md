@@ -40,7 +40,7 @@
 cd ~ | rm -r Simulasi-Hacking | ls
 ```
 
-<details>
+</details>
 
 ## Daftar Name game
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan

@@ -5,6 +5,7 @@
    2.Setelah Terinstal buka termux dan masukan Command ini
    
 <details><br><summary><b><code>Install Simulasi-Hacking</code><b></summary>
+
    ```
    pkg install && pkg update && pkg uprade
    ```

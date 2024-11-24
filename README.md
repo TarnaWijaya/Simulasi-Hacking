@@ -1,9 +1,7 @@
 # Selamat Datang diSimulasi Hacking
 
 ## Cara install
-   1.Buka Termux anda bisa install termux di[![Tombol
-   Link](https://img.shields.io/badge/Visit%20Website-blue)](https://www.example.com)
-   
+   1.Buka Termux anda bisa install termux di[Sini](https://f-droid.org/en/packages/com.termux/)
    
 ## Daftar Name game
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan

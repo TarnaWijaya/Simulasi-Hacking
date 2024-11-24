@@ -7,8 +7,12 @@
    
    ```
 cd /sdcard/Download
-```
-     
+   ```
+   
+   ```
+   pkg install python3 && pkg install python-pip
+   ```
+   
 ## Daftar Name game
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan
 fitur²nya setiap hari jika saya tidak sibuk bekerja

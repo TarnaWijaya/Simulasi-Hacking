@@ -34,7 +34,7 @@
    
 </details>
 
-<details><summary><b><code>Uninstall Game</code></b><summary>
+<details><summary><b><code>Uninstall Game</code></b></summary>
 
 ```
 cd ~ | rm -r Simulasi-Hacking | ls

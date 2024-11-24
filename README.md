@@ -34,6 +34,14 @@
    
 </details>
 
+<details><summary><b><code>Uninstall Game</code><b><summary>
+
+```
+cd ~ | rm -r Simulasi-Hacking | ls
+```
+
+<details>
+
 ## Daftar Name game
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan
 fitur²nya setiap hari jika saya tidak sibuk bekerja

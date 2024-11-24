@@ -42,4 +42,5 @@ Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 
 # Developer
 Tarna | Sarip | Rio Pratama
+
 ©2024

@@ -39,3 +39,7 @@ Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 > Tebak Password    : anda harus mencari passwordnya & memiliki 3 nyawa saja
 
 > Tebak Code Biner  : anda harus memecahkan teka-teki ini ini akan sedikit rumit
+
+# Developer
+Tarna | Sarip | Rio Pratama
+©2024

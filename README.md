@@ -6,6 +6,6 @@ Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 
 Daftar Name Game:
 
-Tebak Password    : anda harus mencari passwordnya
+Tebak Password    : anda harus mencari passwordnya & memiliki 3 nyawa saja
 
-Tebak Code Biner  : anda harus memecahkan teka-teki ini
+Tebak Code Biner  : anda harus memecahkan teka-teki ini ini akan sedikit rumit

@@ -2,6 +2,9 @@
 
 # Cara install
    1.Buka Termux anda bisa install termux di 
+   
+   
+   
 Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan
 fitur²nya setiap hari jika saya tidak sibuk bekerja
 Oky kali ini saya akan menyebutkan nama-nama game tersebut.

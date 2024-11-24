@@ -1,10 +1,10 @@
 # Selamat Datang diSimulasi Hacking
 
-<details><br><summary><b><code>Install Simulasi-Hacking</code><b></summary>
    1.Buka Termux anda bisa install termux di[Sini](https://f-droid.org/en/packages/com.termux/)
    
    2.Setelah Terinstal buka termux dan masukan Command ini
    
+<details><br><summary><b><code>Install Simulasi-Hacking</code><b></summary>
    ```
    pkg install && pkg update && pkg uprade
    ```

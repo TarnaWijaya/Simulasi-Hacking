@@ -1,7 +1,7 @@
 # Selamat Datang diSimulasi Hacking
 
 ## Cara install
-   1.Buka Termux anda bisa install termux di 
+   1.Buka Termux anda bisa install termux di (google.com)[hello]
    
    
 ## Daftar Name game

@@ -54,6 +54,8 @@ V1
 
 > teka teki cyeber : anda harus menjawabnya dengan benar & telitih
 
+V2 mungkin nanti.
+
 # Developer
 Tarna | Sarip | Rio Pratama
 

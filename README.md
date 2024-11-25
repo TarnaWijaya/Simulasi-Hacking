@@ -51,6 +51,8 @@ Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 
 > Tebak Code Biner  : anda harus memecahkan teka-teki ini ini akan sedikit rumit
 
+> teka teki cyeber : anda harus menjawabnya dengan benar & telitih
+
 # Developer
 Tarna | Sarip | Rio Pratama
 

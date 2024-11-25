@@ -7,7 +7,7 @@
 <details><br><summary><b><code>Install Simulasi-Hacking</code><b></summary>
 
    ```
-   pkg install && pkg update && pkg uprade
+   pkg install && pkg update
    ```
    
    ```

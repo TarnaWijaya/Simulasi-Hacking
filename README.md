@@ -19,7 +19,7 @@
    ```
    
    ```
-   cd ~ | cd Simulasi-Hacking | ls
+   cd ~ | cd Simulasi-Hacking && ls
    ```
    
    Pilih Level Game 

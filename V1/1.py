@@ -1,61 +1,50 @@
 import random
 import time
 
-# Pendahuluan
-print("🔥 Selamat datang di Game Hacker! 🔥")
-print("Mulailah dari level Lamer 1 dan tingkatkan ke Lamer 10!")
-print("Selesaikan tantangan hacking untuk naik level!\n")
+# Fungsi untuk menampilkan waktu dan teks dengan delay
+def slow_print(text, delay=0.05):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(delay)
+    print()
 
-# Variabel awal
-level = 1
-points = 0
+# Fungsi untuk membuat kode acak
+def generate_code(level):
+    return ''.join(random.choices('0123456789abcdef', k=level))
 
-# Fungsi tantangan hacking
-def hacking_challenge(level):
-    print(f"Level {level}: Mulai tantangan hacking...\n")
-    time.sleep(1)
-    challenge_type = random.choice(["Math", "Password", "Trivia"])
-    
-    if challenge_type == "Math":
-        # Tantangan matematika sederhana
-        num1 = random.randint(1, 10 * level)
-        num2 = random.randint(1, 10 * level)
-        correct_answer = num1 + num2
-        answer = int(input(f"Hitung: {num1} + {num2} = "))
-        return answer == correct_answer
-    
-    elif challenge_type == "Password":
-        # Tantangan menebak password
-        password = "".join(random.choices("abcdefghijklmnopqrstuvwxyz", k=level + 2))
-        print(f"Password adalah: {password}")
-        guess = input("Tebak password (masukkan kembali): ")
-        return guess == password
-    
-    elif challenge_type == "Trivia":
-        # Tantangan trivia hacking
-        trivia = {
-            "Apa nama sistem operasi yang digunakan kebanyakan server?": "linux",
-            "Apa kepanjangan dari SQL?": "structured query language",
-            "Protokol untuk transfer data aman di web?": "https",
-        }
-        question, correct_answer = random.choice(list(trivia.items()))
-        answer = input(f"{question} ").strip().lower()
-        return answer == correct_answer
-    
+# Fungsi untuk level
+def hacker_level(level):
+    slow_print(f"--- Level {level} ---")
+    code = generate_code(level)
+    slow_print(f"Memasuki sistem... Kode yang ditemukan: {code}")
+
+    attempts = 3
+    while attempts > 0:
+        user_input = input(f"Masukkan kode untuk level {level}: ").strip()
+        if user_input == code:
+            slow_print("Kode benar! Akses diterima.", 0.1)
+            return True
+        else:
+            attempts -= 1
+            slow_print(f"Kode salah! {attempts} percobaan tersisa.", 0.1)
+    slow_print("Akses ditolak. Anda kehabisan percobaan.", 0.1)
     return False
 
-# Gameplay utama
-while level <= 10:
-    print(f"💻 Anda berada di Level {level}.")
-    if hacking_challenge(level):
-        print("✅ Tantangan berhasil! Naik level!\n")
-        points += level * 10
-        level += 1
+# Fungsi utama untuk game
+def hacker_game():
+    slow_print("Selamat datang di game Hacker Lamer!", 0.1)
+    slow_print("Anda adalah seorang hacker pemula yang mencoba menyusup ke sistem.", 0.1)
+    
+    for level in range(1, 11):
+        success = hacker_level(level)
+        if not success:
+            slow_print("Game Over! Anda gagal dalam menyusup ke sistem.", 0.1)
+            break
+        else:
+            slow_print(f"Selamat! Anda berhasil menyusup ke level {level}.", 0.1)
     else:
-        print("❌ Gagal menyelesaikan tantangan. Coba lagi!\n")
-        time.sleep(1)
+        slow_print("Selamat! Anda telah berhasil menyelesaikan semua level!", 0.1)
 
-# Akhir permainan
-print("🎉 Selamat! Anda telah mencapai Level Lamer 01 ! 🎉")
-print(f"Skor akhir Anda: {points} poin.")
-print("Terima kasih telah bermain!")
+# Memulai game
+if __name__ == "__main__":
+    hacker_game()

@@ -56,6 +56,6 @@ while level <= 10:
         time.sleep(1)
 
 # Akhir permainan
-print("🎉 Selamat! Anda telah mencapai Level Lamer 10! 🎉")
+print("🎉 Selamat! Anda telah mencapai Level Lamer 01 ! 🎉")
 print(f"Skor akhir Anda: {points} poin.")
 print("Terima kasih telah bermain!")

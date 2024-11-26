@@ -6,7 +6,6 @@
      anda bisa mempelajari bahasa bahasa hacking secara dasar setiap level,
      berbeda beda tergantung pada keyakinan anda
 
-
    1.Buka Termux anda bisa install termux di[Sini](https://f-droid.org/en/packages/com.termux/)
    
    2.Setelah Terinstal buka termux dan masukan Command ini

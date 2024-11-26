@@ -1,5 +1,7 @@
 # Selamat Datang
-<h2>Disimulasi Hacking</h2>
+   Disimulasi Hacking
+     anda bisa mempelajari bahasa bahasa hacking secara dasar setiap level,
+     berbeda beda tergantung pada keyakinan anda
 
    1.Buka Termux anda bisa install termux di[Sini](https://f-droid.org/en/packages/com.termux/)
    

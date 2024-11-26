@@ -55,17 +55,14 @@ Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan
 fitur²nya setiap hari jika saya tidak sibuk bekerja
 Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 
-V1
-Level 1
-> Tebak Password    : anda harus mencari passwordnya & memiliki 3 nyawa saja
+V1 Lamer
+> Game ini adalah permainan berbasis teks di mana pemain harus menyelesaikan
+tantangan hacking untuk naik level. Pemain mulai dari Level 1 (Lamer 1) dan
+bertujuan untuk mencapai Level 10 (Lamer 10). Setiap level memiliki tantangan
+acak yang harus diselesaikan, seperti soal matematika sederhana, menebak ulang
+password, atau menjawab pertanyaan trivia.
 
-Level 2
-> Tebak Code Biner  : anda harus memecahkan teka-teki ini ini akan sedikit rumit
 
-Level 3
-> teka teki cyeber : anda harus menjawabnya dengan benar & telitih
-
-V2 mungkin nanti.
 
 # Developer
 Tarna | 

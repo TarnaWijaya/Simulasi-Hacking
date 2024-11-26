@@ -56,10 +56,13 @@ fitur²nya setiap hari jika saya tidak sibuk bekerja
 Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 
 V1
+Level 1
 > Tebak Password    : anda harus mencari passwordnya & memiliki 3 nyawa saja
 
+Level 2
 > Tebak Code Biner  : anda harus memecahkan teka-teki ini ini akan sedikit rumit
 
+Level 3
 > teka teki cyeber : anda harus menjawabnya dengan benar & telitih
 
 V2 mungkin nanti.

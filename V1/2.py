@@ -1,75 +1,82 @@
 import random
-import time
 
-# Pendahuluan
-print("🔥 Selamat datang di Game Hacker! 🔥")
-print("Mulailah dari Level 1 dan tingkatkan ke Level 10!")
-print("Selesaikan tantangan hacking untuk menjadi hacker legendaris!\n")
+def generate_questions(level):
+    """
+    Fungsi untuk menghasilkan soal berdasarkan level.
+    """
+    questions = []
+    for i in range(10):  # 10 soal per lembar
+        if level == 1:
+            # Soal level 1: Penjumlahan sederhana
+            num1 = random.randint(1, 10)
+            num2 = random.randint(1, 10)
+            correct_answer = num1 + num2
+            questions.append((f"{num1} + {num2} = ?", correct_answer))
+        elif level == 2:
+            # Soal level 2: Pengurangan sederhana
+            num1 = random.randint(10, 20)
+            num2 = random.randint(1, 10)
+            correct_answer = num1 - num2
+            questions.append((f"{num1} - {num2} = ?", correct_answer))
+        elif level == 3:
+            # Soal level 3: Perkalian sederhana
+            num1 = random.randint(1, 10)
+            num2 = random.randint(1, 10)
+            correct_answer = num1 * num2
+            questions.append((f"{num1} x {num2} = ?", correct_answer))
+        else:
+            # Level di atas 3: Campuran soal
+            num1 = random.randint(1, 10 * level)
+            num2 = random.randint(1, 10 * level)
+            operation = random.choice(["+", "-", "*"])
+            if operation == "+":
+                correct_answer = num1 + num2
+                questions.append((f"{num1} + {num2} = ?", correct_answer))
+            elif operation == "-":
+                correct_answer = num1 - num2
+                questions.append((f"{num1} - {num2} = ?", correct_answer))
+            elif operation == "*":
+                correct_answer = num1 * num2
+                questions.append((f"{num1} x {num2} = ?", correct_answer))
+    return questions
 
-# Variabel awal
-level = 1
-points = 0
-
-# Fungsi tantangan hacking
-def hacking_challenge(level):
-    print(f"\nLevel {level}: Tantangan dimulai...")
-    time.sleep(1)
-
-    # Soal berdasarkan level
-    if level == 1:
-        print("Soal: Hitung 5 + 3")
-        return int(input("Jawaban: ")) == 8
+def play_level(level):
+    """
+    Fungsi untuk memainkan satu level.
+    """
+    print(f"📘 Level {level}: Jawab 10 soal berikut!")
+    questions = generate_questions(level)
+    score = 0
     
-    elif level == 2:
-        print("Soal: Berapa hasil dari 12 * 2?")
-        return int(input("Jawaban: ")) == 24
+    for idx, (question, correct_answer) in enumerate(questions, start=1):
+        try:
+            user_answer = int(input(f"Soal {idx}: {question} "))
+            if user_answer == correct_answer:
+                print("✅ Benar!")
+                score += 1
+            else:
+                print(f"❌ Salah! Jawaban yang benar: {correct_answer}")
+        except ValueError:
+            print("❌ Input tidak valid! Jawaban salah.")
     
-    elif level == 3:
-        print("Soal: Tebak password ini: 'abc123'")
-        return input("Masukkan password: ") == "abc123"
-    
-    elif level == 4:
-        print("Soal: Apa sistem operasi yang sering digunakan oleh server?")
-        return input("Jawaban: ").strip().lower() == "linux"
-    
-    elif level == 5:
-        print("Soal: Berapa hasil dari 9 + 6?")
-        return int(input("Jawaban: ")) == 15
-    
-    elif level == 6:
-        password = "h4x0r"
-        print(f"Soal: Password terenkripsi adalah '{password}'. Masukkan password yang sama.")
-        return input("Masukkan password: ") == password
-    
-    elif level == 7:
-        print("Soal: Apa kepanjangan dari HTTPS?")
-        return input("Jawaban: ").strip().lower() == "hypertext transfer protocol secure"
-    
-    elif level == 8:
-        print("Soal: Berapa hasil dari 45 / 5?")
-        return int(input("Jawaban: ")) == 9
-    
-    elif level == 9:
-        print("Soal: Apa nama bahasa pemrograman yang memiliki logo ular?")
-        return input("Jawaban: ").strip().lower() == "python"
-    
-    elif level == 10:
-        print("Soal terakhir: Berapa hasil dari 100 - 25?")
-        return int(input("Jawaban: ")) == 75
-
-    return False
+    print(f"\nLevel {level} selesai! Skor Anda: {score}/10")
+    return score >= 7  # Lulus jika benar minimal 7 soal
 
 # Gameplay utama
-while level <= 10:
-    print(f"\n💻 Anda berada di Level {level}.")
-    if hacking_challenge(level):
-        print("✅ Tantangan berhasil! Naik level!")
-        points += level * 10
-        level += 1
-    else:
-        print("❌ Salah jawaban. Coba lagi!")
+def main():
+    print("🔥 Selamat datang di Game Hacker Level! 🔥")
+    print("Naikkan level Anda dengan menyelesaikan lembar soal (10 soal/level).\n")
+    
+    level = 1
+    while level <= 10:
+        print(f"=== Memulai Level {level} ===")
+        if play_level(level):
+            print(f"🎉 Selamat! Anda lulus Level {level}.\n")
+            level += 1
+        else:
+            print("❌ Anda gagal di level ini. Coba lagi!\n")
+    
+    print("🎊 Selamat! Anda telah menyelesaikan semua level! 🎊")
 
-# Akhir permainan
-print("\n🎉 Selamat! Anda telah menyelesaikan semua level! 🎉")
-print(f"Skor akhir Anda: {points} poin.")
-print("Terima kasih telah bermain!")
+if __name__ == "__main__":
+    main()

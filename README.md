@@ -1,5 +1,5 @@
 # Selamat Datang
-   Disimulasi Hacking
+   Di Game simulasi Hacking
    
    Description:
    > anda bisa mempelajari bahasa bahasa hacking secara dasar setiap level,
@@ -51,11 +51,8 @@ cd ~ | rm -r Simulasi-Hacking | ls
 </details>
 
 ## Daftar Name game
-Anda disini akan belajar dasar-dasar hacking dengan mudah, kami akan menyiapkan
-fitur²nya setiap hari jika saya tidak sibuk bekerja
-Oky kali ini saya akan menyebutkan nama-nama game tersebut.
 
-V1 Lamer
+V1 Lamer - Dasar
 > Game ini adalah permainan berbasis teks di mana pemain harus menyelesaikan
 tantangan hacking untuk naik level. Pemain mulai dari Level 1 (Lamer 1) dan
 bertujuan untuk mencapai Level 10 (Lamer 10). Setiap level memiliki tantangan

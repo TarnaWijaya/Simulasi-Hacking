@@ -4,6 +4,7 @@
    Description:
    > anda bisa mempelajari bahasa bahasa hacking secara dasar setiap level,
    > berbeda beda tergantung pada keyakinan Anda
+   
      
    1.Buka Termux anda bisa install termux di[Sini](https://f-droid.org/en/packages/com.termux/)
    

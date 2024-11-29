@@ -6,7 +6,7 @@
    > berbeda beda tergantung pada keyakinan Anda
    
    > Jika anda mau collab dengan [klik
-   disini](https://chat.whatsapp.com/LhhJEaSH1GI61KzBSqOfMs)
+   disini](https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n)
      
    1.Buka Termux anda bisa install termux di[Sini](https://f-droid.org/en/packages/com.termux/)
    
